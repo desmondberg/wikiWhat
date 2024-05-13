@@ -7,6 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "wikiWhat",
   description: "Search Wikipedia with a rough description",
+  icons:{
+    icon:'./icon.png'
+  },
+  openGraph: {
+    images: './opengraph-image.png',
+  },
 };
 
 export default function RootLayout({
