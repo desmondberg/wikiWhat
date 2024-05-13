@@ -5,7 +5,6 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("www.wikiwhat.wiki"),
   title: "wikiWhat",
   description: "Search Wikipedia with a rough description",
   icons:{
