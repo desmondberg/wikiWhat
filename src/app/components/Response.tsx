@@ -22,10 +22,10 @@ export default function Response({ value }: any) {
 
 
     const OpenAI = require('openai');
-    const OPENAI_API_KEY = process.env.NEXT_PUBLIC_OPENAI_KEY;
+    const OPENAI_API_KEY = process.env.OPENAI_KEY;
     const openai = new OpenAI({ apiKey: OPENAI_API_KEY, dangerouslyAllowBrowser: true });
     const baseWikipediaUrl = "https://en.wikipedia.org/wiki/";
-    const wikipediaAccessToken = process.env.NEXT_PUBLIC_WIKIPEDIA_KEY;
+    const wikipediaAccessToken = process.env.WIKIPEDIA_KEY;
 
 
     const [resultBoxDisplay, setResultBoxDisplay] = useState("h-0");
