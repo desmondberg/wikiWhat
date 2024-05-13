@@ -1,0 +1,1 @@
+the interface of the wikiWhat website, showing a search bar on the top with the query "an encyclopedia that's online" with the result section below showing the Wikipedia article for "Wikipedia".
