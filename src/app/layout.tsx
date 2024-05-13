@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("www.wikiwhat.wiki"),
   title: "wikiWhat",
   description: "Search Wikipedia with a rough description",
   icons:{
@@ -23,7 +24,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-       <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
